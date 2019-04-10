@@ -1,6 +1,8 @@
 from time import sleep
 from selenium.webdriver.support.wait import WebDriverWait
-
+from CreateMobile import *
+from CreateIdentity import *
+from selenium.webdriver.common.action_chains import ActionChains
 class Action(object):
     def __init__(self,driver):
         self.driver = driver
@@ -75,5 +77,14 @@ class Action(object):
         '''定义执行js脚本方法'''
         return self.driver.execute_script(jss)
 
+    def get_idcard(self):
+        '''获取自动生成身份证号'''
+        return create_identity(int(area_dict1), 22, 1)
 
+    def get_mobile(self):
+        '''获取自动生成手机号'''
+        return create_mobile()
 
+    def ActionChains(self,right_click):
+        '''封装鼠标操作'''
+        return ActionChains(self.driver).context_click(right_click).perform()
