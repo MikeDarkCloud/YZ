@@ -14,7 +14,6 @@ class LoginPage(Action):
         self.find_element(*self.username_loc).send_keys(username)
 
     def type_password(self,password):
-        # self.def_send_keys(*self.username_loc,password)
         self.find_element(*self.password_loc).clear()
         self.find_element(*self.password_loc).send_keys(password)
 
@@ -69,6 +68,3 @@ class LoginPage(Action):
         return self.find_element(*self.loginFail_loc)
 
 
-
-if __name__ == '__main__':
-    LoginPage.Login_action('蓝明勇','Yz123456')
