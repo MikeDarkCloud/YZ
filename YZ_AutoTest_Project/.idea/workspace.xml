@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="45ba5ed0-12e1-40a0-b219-429bc29974cf" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
       <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Website/test_case/test_login.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/YZ_AutoTest_Project_V1.0.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/YZ_AutoTest_Project_V1.0.iml" afterDir="false" />
@@ -9,6 +10,9 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/test_case/model/myunit.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website/test_case/model/myunit.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Website/test_case/page_object/LoginPage.py" beforeDir="false" afterPath="$PROJECT_DIR$/Website/test_case/page_object/LoginPage.py" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,17 +20,91 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+<<<<<<< Updated upstream
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/YZ_AutoTest_Project$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1554993183953" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website/test_case" />
     <SUITE FILE_PATH="coverage/YZ_AutoTest_Project$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1554988246430" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Website/test_case/page_object" />
+=======
+  <component name="FUSProjectUsageTrigger">
+    <session id="2054328887">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.34" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="10" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="6" />
+          <entry key="py" value="470" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="470" />
+        </counts>
+      </usages-collector>
+    </session>
+    <session id="1253413168">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="8" />
+          <entry key="py" value="211" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="211" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="log" value="1" />
+          <entry key="py" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Log" value="1" />
+          <entry key="Python" value="3" />
+        </counts>
+      </usages-collector>
+    </session>
+>>>>>>> Stashed changes
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Website/test_case/model/myunit.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="190">
               <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+=======
+            <state relative-caret-position="225">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
               </folding>
@@ -37,8 +115,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/test_case/public/BaiduApi.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="228">
               <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+=======
+            <state relative-caret-position="300">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -49,8 +132,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/test_case/public/Log.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="247">
               <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+=======
+            <state relative-caret-position="325">
+              <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -58,8 +146,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/test_case/public/XLExcel.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="342">
               <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+=======
+            <state relative-caret-position="561">
+              <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -70,8 +163,13 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/test_case/page_object/BasePage.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="836">
               <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+=======
+            <state relative-caret-position="2150">
+              <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+>>>>>>> Stashed changes
               <folding>
                 <element signature="e#0#22#0" expanded="true" />
               </folding>
@@ -91,7 +189,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Website/test_case/public/CreateIdentity.py">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state relative-caret-position="10241">
+=======
+            <state relative-caret-position="13475">
+>>>>>>> Stashed changes
               <caret line="540" column="29" selection-start-line="540" selection-start-column="20" selection-end-line="540" selection-end-column="29" />
             </state>
           </provider>
@@ -153,6 +255,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
+<<<<<<< Updated upstream
     <option name="x" value="-6" />
     <option name="y" value="6" />
     <option name="width" value="1386" />
@@ -160,13 +263,18 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
+=======
+    <option name="x" value="140" />
+    <option name="y" value="120" />
+    <option name="width" value="1490" />
+    <option name="height" value="971" />
+>>>>>>> Stashed changes
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -198,6 +306,16 @@
               <item name="Website" type="462c0819:PsiDirectoryNode" />
               <item name="test_case" type="462c0819:PsiDirectoryNode" />
               <item name="page_object" type="462c0819:PsiDirectoryNode" />
+<<<<<<< Updated upstream
+=======
+            </path>
+            <path>
+              <item name="YZ_AutoTest_Project" type="b2602c69:ProjectViewProjectNode" />
+              <item name="YZ_AutoTest_Project" type="462c0819:PsiDirectoryNode" />
+              <item name="Website" type="462c0819:PsiDirectoryNode" />
+              <item name="test_case" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+>>>>>>> Stashed changes
             </path>
             <path>
               <item name="YZ_AutoTest_Project" type="b2602c69:ProjectViewProjectNode" />
@@ -216,12 +334,18 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+<<<<<<< Updated upstream
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../git_dome/bms-3/YZ_AutoTest_Project" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+=======
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+>>>>>>> Stashed changes
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -409,8 +533,12 @@
     <option name="totallyTimeSpent" value="6601000" />
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
     <frame x="-6" y="6" width="1386" height="788" extended-state="0" />
     <editor active="true" />
+=======
+    <frame x="140" y="120" width="1490" height="971" extended-state="0" />
+>>>>>>> Stashed changes
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15309201" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -469,6 +597,7 @@
       <provider selected="true" editor-type-id="LogFileEditorProvider">
         <state relative-caret-position="75">
           <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+<<<<<<< Updated upstream
         </state>
       </provider>
     </entry>
@@ -486,6 +615,8 @@
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
+=======
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
@@ -498,8 +629,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/test_case/public/XLExcel.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="342">
           <caret line="19" column="43" selection-start-line="19" selection-start-column="43" selection-end-line="19" selection-end-column="43" />
+=======
+        <state relative-caret-position="225">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
@@ -508,32 +644,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/test_case/page_object/BasePage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="836">
           <caret line="48" column="43" selection-start-line="48" selection-start-column="43" selection-end-line="48" selection-end-column="43" />
+=======
+        <state relative-caret-position="300">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< Updated upstream
     <entry file="file://$PROJECT_DIR$/Website/test_case/public/CreateMobile.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
           <caret line="3" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
+=======
+    <entry file="file://$PROJECT_DIR$/Website/test_case/public/Log.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/test_case/page_object/BasePage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2150">
+          <caret line="90" lean-forward="true" selection-start-line="90" selection-end-line="90" />
+          <folding>
+            <element signature="e#0#22#0" expanded="true" />
+            <marker date="1554873856586" expanded="true" signature="223:228" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/test_case/public/CreateMobile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="17" />
+          <folding>
+            <marker date="1554788253131" expanded="true" signature="14:15" ph="..." />
+          </folding>
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/test_case/public/CreateIdentity.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="10241">
+=======
+        <state relative-caret-position="13475">
+>>>>>>> Stashed changes
           <caret line="540" column="29" selection-start-line="540" selection-start-column="20" selection-end-line="540" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Website/test_case/page_object/LoginPage.py">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
         <state relative-caret-position="114">
           <caret line="63" column="27" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="27" />
+=======
+        <state relative-caret-position="561">
+          <caret line="56" column="20" lean-forward="true" selection-start-line="56" selection-start-column="20" selection-end-line="56" selection-end-column="20" />
+>>>>>>> Stashed changes
           <folding>
             <element signature="e#0#22#0" expanded="true" />
           </folding>
