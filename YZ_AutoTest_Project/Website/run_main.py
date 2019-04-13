@@ -38,11 +38,13 @@ def run_case(all_case, report_path):
     '''执行所有的用例, 并把结果写入测试报告'''
     now = time.strftime("%Y_%m_%d %H_%M_%S")
     report_spath = os.path.join(report_path, now+"result.html")
-    with open(report_spath,"wb") as fp:
-        runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title = '远智教务系统自动化测试报告,测试结果如下：',description = '用例执行情况：')
-     # 调用add_case函数返回值
-        runner.run(all_case)
-    # fp.close()
+    fp = open(report_spath,"wb")
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,
+                                           title = '远智教务系统自动化测试报告：',
+                                           description = '用例执行情况：')
+    # 调用add_case函数返回值
+    runner.run(all_case)
+    fp.close()
 
 def get_report_file(report_path):
     '''获取最新的测试报告'''
