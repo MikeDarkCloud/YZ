@@ -9,10 +9,13 @@ class Log:
     def __console(self,level, message):
         # 创建一个FileHandler，用于写到本地
         pwd = os.getcwd()
-        p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
+        # p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
         p2 = "test_reprot\log"
-        file = os.path.join(p1, p2)
-        # file = 'C:\\Py\\bms-3\\YZ_AutoTest_Project\\Website\\test_reprot\\loginfo'
+        file = os.path.join(pwd, p2)
+        # p1 = os.path.dirname(os.path.abspath('..'))
+        # p2 = "test_reprot\log"
+        # file = os.path.join(p1, p2)
+        # file = 'C:\\github\\YZ_AutoTest_Project\\Website\\test_reprot\\log'
         self.logname = os.path.join(file, '%s.log'%time.strftime('%Y_%m_%d'))
         fh = logging.FileHandler(self.logname, 'a', encoding='utf-8')  # 这个是python3的追加模式
 

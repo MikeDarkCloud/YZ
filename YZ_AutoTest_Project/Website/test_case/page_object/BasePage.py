@@ -39,14 +39,14 @@ class Action(object):
         except:
             print("页面元素未能找到元素！")
 
-    def def_send_keys(self,*loc,value):
-        "重写send_keys方法"
-        try:
-            loc = getattr(self, "_%s" %loc)
-            self.find_element(loc).clear()
-            self.find_element(*loc).send_keys(value)
-        except AttributeError:
-            print ("%s 页面中未能找到 %s 元素" %loc)
+    # def def_send_keys(self,*loc,value):
+    #     "重写send_keys方法"
+    #     try:
+    #         loc = getattr(self, "_%s" %loc)
+    #         self.find_element(loc).clear()
+    #         self.find_element(*loc).send_keys(value)
+    #     except AttributeError:
+    #         print ("%s 页面中未能找到 %s 元素" %loc)
 
     def switch_to_frame(self,*loca):
         "重写switch_to_frame方法"

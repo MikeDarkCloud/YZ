@@ -4,7 +4,6 @@ from myunit import *
 
 class LoginTest(StartEnd):
     #@unittest.skip('skip this case')
-
     def test_register1_normal_2(self):
         '''登陆测试'''
         print("test_register_normal is start test..")
@@ -17,6 +16,7 @@ class LoginTest(StartEnd):
         sleep(5)
         po1.type_loginFail_hint()
 
+    @unittest.skip('skip this case')
     def test_register1_normal_3(self):
         '''登陆测试'''
         print("test_register_normal is start test..")

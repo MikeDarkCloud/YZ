@@ -6,7 +6,7 @@ class rewrxl():
         pwd = os.getcwd()
         p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
         p2 = "test_data\Excel_File\StudentBaseInfo.xlsx"
-        file = os.path.join(p1, p2)
+        file = os.path.join(pwd, p2)
         wb = load_workbook(file)
         #打开sheet
         ws = wb["StudentBaseInfo"]
@@ -24,7 +24,7 @@ class rewrxl():
         pwd = os.getcwd()
         p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
         p2 = "test_data\Excel_File\StudentBaseInfo.xlsx"
-        file = os.path.join(p1, p2)
+        file = os.path.join(pwd, p2)
         wb = load_workbook(file)
         ws = wb.get_sheet_by_name("Login_Eelement")
         ss=ws[e_loc].value
@@ -32,9 +32,9 @@ class rewrxl():
 
     def sread_xl(self):
         pwd = os.getcwd()
-        p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
+        # p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
         p2 = "test_data\Excel_File\StudentBaseInfo.xlsx"
-        file = os.path.join(p1, p2)
+        file = os.path.join(pwd, p2)
         wb = load_workbook(file)
         ws = wb.get_sheet_by_name("StudentNum")
         ss=ws['A1'].value
@@ -44,7 +44,7 @@ class rewrxl():
         pwd = os.getcwd()
         p1 = os.path.abspath(os.path.dirname(pwd) + os.path.sep + "..")
         p2 = "test_data\Excel_File\StudentBaseInfo.xlsx"
-        file = os.path.join(p1, p2)
+        file = os.path.join(pwd, p2)
         wb = load_workbook(file)
         ws = wb["StudentNum"]
         ws['%s%d' % ('A', 1)] = nvalue
