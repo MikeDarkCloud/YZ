@@ -2,6 +2,7 @@
 <project version="4">
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/Website/test_case/test_adult_register.py" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/Website/test_case/test_dd_register.py" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Website/test_case/test_login.py" charset="GBK" />
     <file url="file://$PROJECT_DIR$/Website/test_case/test_login1.py" charset="GBK" />
   </component>
