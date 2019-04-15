@@ -2,12 +2,12 @@ import pymysql
 import datetime
 from  Website.test_case.public.Log import *
 # 打开数据库连接
-class GetMsql():
+class ConnectMysql():
     def updatalearnannex(self,learn_id):
         '''设置成教学员附件资料'''
         nowTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        db = pymysql.connect("10.0.0.224", "root", "databases001", "bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224", "root", "databases001", "bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
@@ -27,8 +27,8 @@ class GetMsql():
     def upgklearnannex(self,learn_id):
         '''设置国开学员附件资料'''
         nowTime = datetime.datetime.now().strftime('%Y-%m-%d %H:%M:%S')
-        db = pymysql.connect("10.0.0.224", "root", "databases001", "bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224", "root", "databases001", "bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
@@ -48,8 +48,8 @@ class GetMsql():
     def getlearnid(self,mobile):
         '''获取学员learn_id'''
         log=Log()
-        db = pymysql.connect("10.0.0.224","root","databases001","bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224","root","databases001","bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用 cursor() 方法创建一个游标对象 cursor
         cursor = db.cursor()
         # 使用 execute()  方法执行 SQL 查询
@@ -66,8 +66,8 @@ class GetMsql():
     def getstdid(self,mobile):
         '''获取学员std_id'''
         log=Log()
-        db = pymysql.connect("10.0.0.224","root","databases001","bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224","root","databases001","bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用 cursor() 方法创建一个游标对象 cursor
         cursor = db.cursor()
         # 使用 execute()  方法执行 SQL 查询
@@ -82,8 +82,8 @@ class GetMsql():
 
     def updatalearn(self,learn_id):
         '''设置学员附件资料状态'''
-        db = pymysql.connect("10.0.0.224","root","databases001","bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224","root","databases001","bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
@@ -103,8 +103,8 @@ class GetMsql():
 
     def upstudent(self,mobile):
         '''设置学员附件资料状态'''
-        db = pymysql.connect("10.0.0.224","root","databases001","bms")
-        # db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
+        # db = pymysql.connect("10.0.0.224","root","databases001","bms")
+        db = pymysql.connect("120.24.167.89", "yzDev", "@yZdev0512!", "bms")
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
@@ -129,7 +129,7 @@ class GetMsql():
         db.close()
 
 if __name__ == '__main__':
-    l=GetMsql()
+    l=ConnectMysql()
     # l.upstudent(13956180400)
     learn = l.getlearnid('15019383463')
     # print('ffff'+learn)

@@ -3,7 +3,7 @@ from time import sleep
 from myunit import *
 
 class LoginTest(StartEnd):
-    #@unittest.skip('skip this case')
+    @unittest.skip('skip this case')
     def test_register1_normal_1(self):
         '''登陆测试'''
         print("test_register_normal is start test..")

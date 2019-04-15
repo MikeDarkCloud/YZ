@@ -6,7 +6,7 @@ import unittest
 from Log import *
 
 class AdultRegisterTest(StartEnd):
-    # @unittest.skip('skip this case')
+    @unittest.skip('skip this case')
     def test_adult_register_1(self):
         '''测试教务系统成教学员录入'''
         print("test_cj_register_normal is start test..")
