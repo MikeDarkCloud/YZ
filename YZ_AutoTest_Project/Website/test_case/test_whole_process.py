@@ -53,6 +53,7 @@ class WholeProcessTest(StartEnd):
         po3.type_paymanage(1)
         po5.pay_search(iphone,3)
         po4.type_pay()
+        self.assertIsNotNone(po4.type_register_hint, msg=None)
 
 
 

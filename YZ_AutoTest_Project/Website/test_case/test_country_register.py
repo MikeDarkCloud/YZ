@@ -8,7 +8,7 @@ from AdultEntrance import *
 from myunit import *
 
 class CountryRegisterTest(StartEnd):
-    @unittest.skip('skip this case')
+    # @unittest.skip('skip this case')
     def test_country_register(self):
         '''测试教务系统国开学员录入缴费'''
         log = Log()

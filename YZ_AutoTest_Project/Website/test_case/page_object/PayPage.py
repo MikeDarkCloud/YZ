@@ -13,6 +13,7 @@ class Pay(Action):
     savebtu = (By.CSS_SELECTOR,'.btn')
     Student_iframe = (By.XPATH, '//*[@id="iframe_box"]/div[1]/iframe')
     pay_iframe = (By.XPATH, '/html/body/div[3]/div[2]/iframe')
+    assert_element = (By.XPATH,'/html/body/div/div[2]/div/span/a[1]')
     def type_pay(self):
         log=Log()
         log.info('开始缴费！')
@@ -34,3 +35,6 @@ class Pay(Action):
         self.find_element(*self.savebtu) .click()
         sleep(10)
 
+    def type_register_hint(self):
+        '''支付成功断言'''
+        return self.find_element(*self.assert_element).text
