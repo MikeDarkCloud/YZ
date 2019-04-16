@@ -15,8 +15,8 @@ class ListPage(Action):
     EnrollStudent=(By.XPATH,'/html/body/aside/div/dl[6]/dd/ul/li[2]/a')
     StudentSeg=(By.CSS_SELECTOR,'#menu-admin > dd > ul > li:nth-child(3) > a')
     '''财务管理'''
-    PayManage = (By.XPATH,'/html/body/aside/div/dl[15]/dt/i[2]')
-    stdPay = (By.XPATH,'/html/body/aside/div/dl[15]/dd/ul/li[6]/a')
+    PayManage = (By.XPATH,'/html/body/aside/div/dl[11]/dt/i[2]')
+    stdPay = (By.XPATH,'/html/body/aside/div/dl[11]/dd/ul/li[5]/a')
     PayChack = (By.XPATH,'/html/body/aside/div/dl[11]/dd/ul/li[6]/a')
     coupon = (By.XPATH,'/html/body/aside/div/dl[15]/dd/ul/li[11]')
     '''学员异动管理'''
@@ -192,6 +192,7 @@ class ListPage(Action):
             else:
                 self.find_element(*self.PayManage).click()
                 sleep(3)
+                pp=self.find_element(*self.stdPay)
                 self.find_element(*self.stdPay).click()
             sleep(3)
 

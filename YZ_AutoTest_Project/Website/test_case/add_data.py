@@ -4,7 +4,7 @@ from HomePage import *
 from myunit import *
 from Log import *
 class AddDataTest(StartEnd):
-    # @unittest.skip('skip this case')
+    @unittest.skip('skip this case')
     def test_addcj_testdata_1(self):
         '''测试数据录入'''
         log=Log()
