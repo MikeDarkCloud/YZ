@@ -1,5 +1,4 @@
 from BasePage import *
-from Log import *
 from selenium.webdriver.common.by import By
 
 class Invitation(Action):
@@ -30,7 +29,6 @@ class Invitation(Action):
     '''断言'''
     Access = (By.CSS_SELECTOR,'body > div.wraper > div > div.children-page > div.commonPop.success > div > div > div.sjlb.mt > div > div.yj > img')
     def type_invitationregister(self):
-        log = Log()
         self.find_element(*self.register2).cilck()
         self.find_element(*self.Register1).cilck()
         sleep(1)
@@ -60,3 +58,6 @@ class Invitation(Action):
         self.find_element(*self.NextBtn).click()
         self.find_element(*self.SaveBtn).click()
 
+    def type_dd_assert_success(self):
+        '''钉钉录入信息断言'''
+        return self.isElementExist(*self.Access)

@@ -43,6 +43,8 @@ class StudentOutExamineTest(StartEnd):
         po5.type_stdout_examine(iphone)
         po8 = StudentOutExamine(self.driver)
         po8.type_student_out_examine()
+        self.assertTrue(po8.type_student_out_examine_success,msg=None)
+
 
 
 

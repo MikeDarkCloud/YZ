@@ -30,7 +30,7 @@ class StudentInfoModify(Action):
     chiframe1 = (By.XPATH,'/html/body/div[3]/div[2]/iframe')
     chmobile = (By.XPATH,'/html/body/div/div[1]/div/div/div[2]/input')
     chsearch = (By.XPATH,'/html/body/div/div[1]/div/div/div[4]/a[1]')
-
+    assert_element = (By.XPATH,'//*[@id="mobile"]')
     def type_student_change(self,iphone):
         '''进入新生信息修改页面'''
         log=Log()
@@ -63,6 +63,10 @@ class StudentInfoModify(Action):
         self.find_element(*self.submit).click()
         sleep(5)
         log.info("新生信息修改完毕！")
+
+    def type_student_modify_success(self):
+        '''新生信息修改完成断言'''
+        self.isElementExist(*self.assert_element)
 
 
 

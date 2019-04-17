@@ -25,6 +25,7 @@ class WholeProcessTest(StartEnd):
         po3 = ListPage(self.driver)
         po3.type_studentmanage(1)
         iphone = po2.type_cheng_register()
+        # self.assertTrue(po2.type_register_cj_success, msg=None)
         po3.type_paymanage(1)
         po5 = Search(self.driver)
         po5.pay_search(iphone,1)
@@ -53,7 +54,9 @@ class WholeProcessTest(StartEnd):
         po3.type_paymanage(1)
         po5.pay_search(iphone,3)
         po4.type_pay()
-        self.assertIsNotNone(po4.type_register_hint, msg=None)
+        self.assertTrue(po4.type_pay_success,msg=None)
+
+
 
 
 

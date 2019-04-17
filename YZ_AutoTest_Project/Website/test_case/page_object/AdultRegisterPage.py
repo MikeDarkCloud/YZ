@@ -206,21 +206,24 @@ class Auto_CJ_Register(Action,rewrxl):
         sleep(1)
         self.find_element(*self.Preservation_loc).send_keys(Keys.ENTER)
         sleep(5)
+        log.info('开始检查生日信息是否完善！')
         m=ConnectMysql()
         learn_id = m.getlearnid(iphone)
         sleep(1)
         m.updatalearnannex(learn_id[0])
         sleep(2)
+        log.info('开始添加学员信息附件！')
         m.updatalearn(learn_id)
         sleep(1)
         m.upstudent(iphone)
         sleep(5)
+        log.info('成教学员信息录入完成！')
         return iphone
 
 
-    def type_register_hint(self):
+    def type_register_cj_success(self):
         '''录入成功断言：检查是否能定位到“我的绩效”'''
-        return self.find_element(*self.myPerformance_loc).text
+        return self.isElementExist(*self.myPerformance_loc)
 
 
 

@@ -23,6 +23,7 @@ class StudentModifyTest(StartEnd):
         po3 = ListPage(self.driver)
         po3.type_studentmanage(1)
         iphone = po2.type_cheng_register()
+        self.assertTrue(po2.type_register_cj_success, msg=None)
         po3.type_paymanage(1)
         po5 = Search(self.driver)
         po5.pay_search(iphone,1)
@@ -34,10 +35,12 @@ class StudentModifyTest(StartEnd):
         po6.type_pay_check()
         po3.type_std_change(1)
         po7 = StudentInfoModify(self.driver)
+        self.assertTrue(po7.type_student_modify_success,msg = None)
         po7.type_student_change(iphone)
         po3.type_std_change(2)
         po8 = StudentInfoExamine(self.driver)
         po8.type_student_examine(iphone)
+        self.assertTrue(po8.type_student_examine_success,msg=None)
 
 
 

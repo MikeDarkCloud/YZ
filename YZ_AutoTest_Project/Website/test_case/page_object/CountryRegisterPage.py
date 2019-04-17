@@ -64,6 +64,7 @@ class AutoGkRegister(Action,rewrxl):
         self.switch_to_content()
         self.switch_to_frame(self.find_element(*self.Student_iframe))
         sleep(1)
+        log.info('开始录入信息')
         self.find_element(*self.Add_Student_loc).click()
         sleep(3)
         self.find_element(*self.GK_Education_loc).click()
@@ -222,5 +223,5 @@ class AutoGkRegister(Action,rewrxl):
         sleep(5)
         return iphone
 
-    def type_register_hint(self):
-        return self.find_element(*self.myPerformance_loc).text
+    def type_register_gk_success(self):
+        return self.find_element(*self.myPerformance_loc)

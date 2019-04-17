@@ -20,7 +20,7 @@ class CountryRegisterTest(StartEnd):
         po3 = ListPage(self.driver)
         po3.type_studentmanage(1)
         iphone = po2.type_gk_register()
-        self.assertIsNotNone(po2.type_register_hint, msg=None)
+        self.assertTrue(po2.type_register_gk_success, msg=None)
         po3.type_paymanage(1)
         po5 = Search(self.driver)
         po5.pay_search(iphone, 1)
@@ -30,12 +30,12 @@ class CountryRegisterTest(StartEnd):
         po5.pay_check_search(iphone)
         po6 = PayCheck(self.driver)
         po6.type_pay_check()
-        self.assertIsNotNone(po2.type_register_hint, msg=None)
+        self.assertTrue(po2.type_register_gk_success, msg=None)
         #循环时使用
         # for i in range(0, 10):
         #     po2.type_cheng_register()
         #     log.info("断言！")
-        #     self.assertIsNotNone(po2.type_register_hint, msg=None)
+        #     self.assertIsNotNone(po2.type_register_gk_success, msg=None)
 
 
 

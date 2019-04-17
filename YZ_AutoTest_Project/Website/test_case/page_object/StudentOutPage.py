@@ -8,6 +8,7 @@ class StudentOut(Action):
     reason = (By.XPATH,'/html/body/span/span/span[2]/ul/li[2]')
     remarks = (By.XPATH,'/html/body/article/form/div[3]/div[3]/div/textarea')
     submit = (By.XPATH,'/html/body/article/form/div[4]/input')
+    assert_element = (By.XPATH,'//*[@id="stdName"]')
     def type_student_out(self):
         '''进入学员退学申请页面'''
         log=Log()
@@ -24,7 +25,10 @@ class StudentOut(Action):
         sleep(1)
         self.find_element(*self.submit).click()
         sleep(4)
-        log.info('退学申请结束！')
+
+    def type_student_out_success(self):
+        '''退学成功发起断言'''
+        self.isElementExist(*self.assert_element)
 
 
 

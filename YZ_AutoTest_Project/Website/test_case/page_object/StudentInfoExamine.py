@@ -10,7 +10,7 @@ class StudentInfoExamine(Action):
     allsele = (By.XPATH,'/html/body/div/div[2]/div/div/div/table/thead/tr/th[1]/input')
     examine = (By.XPATH,'/html/body/div/div[2]/div/span/a')
     btn = (By.XPATH,'/html/body/div[3]/div[3]/a[1]')
-
+    assert_element =(By.XPATH,'//*[@id="phone"]')
     def type_student_examine(self,iphone):
         '''进入新生信息修改审核页面'''
         log=Log()
@@ -31,4 +31,7 @@ class StudentInfoExamine(Action):
         sleep(2)
         log.info("新生信息审核完毕")
 
+    def type_student_examine_success(self):
+        '''新生信息修改审核断言'''
+        return self.isElementExist(*self.assert_element)
 

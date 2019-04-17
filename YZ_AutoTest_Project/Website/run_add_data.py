@@ -94,7 +94,7 @@ if __name__ == "__main__":
     file = os.path.join(p1, p2)
     file1 = os.path.join(p1, p3)
     case_path = file
-    rule="add_data.py"
+    rule="test_dd_register.py"
     all_case = add_case(case_path,rule) # 1加载用例
     # 生成测试报告的路径
     report_path = file1

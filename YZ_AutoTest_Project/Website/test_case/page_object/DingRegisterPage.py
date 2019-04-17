@@ -52,7 +52,7 @@ class Auto_DCJ_register(Action,rewrxl):
     exar = (By.CSS_SELECTOR,'body > div > div > div > div.widget-list > div:nth-child(6)')
     exar1 = (By.CSS_SELECTOR,'body > div > div > div > div.children-page > div > div > div > div:nth-child(1)')
     savebutton = (By.CSS_SELECTOR,'body > div > div > div > div.footer > div > div')
-
+    enter_loc = (By.XPATH,'/html/body/div/div/div/div[15]/div/button')
     def type_dd_login(self):
         self.find_element(*self.ddusername).click()
         self.find_element(*self.ddusername).send_keys('autotester1')
@@ -129,6 +129,8 @@ class Auto_DCJ_register(Action,rewrxl):
         sleep(1)
         self.find_element(*self.next1).click()
         sleep(1)
+        self.find_element(*self.enter_loc).click()
+        sleep(1)
         self.find_element(*self.edutype).click()
         sleep(1)
         self.find_element(*self.edusure).click()
@@ -178,8 +180,8 @@ class Auto_DCJ_register(Action,rewrxl):
         self.find_element(*self.savebutton).click()
         sleep(5)
 
-    def type_dregister_hint(self):
-        return self.find_element(*self.Adult_Education).text
+    def type_dregister_success(self):
+        return self.find_element(*self.Adult_Education)
 
 
 

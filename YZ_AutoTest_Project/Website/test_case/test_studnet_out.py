@@ -37,8 +37,7 @@ class StudentOutTest(StartEnd):
         s = Search(self.driver)
         s.type_stdout_search(iphone)
         po7.type_student_out()
-
-
+        self.assertTrue(po7.type_student_out_success,msg=None)
 
 
 if __name__ == '__main__':

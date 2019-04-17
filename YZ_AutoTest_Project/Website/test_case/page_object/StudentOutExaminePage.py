@@ -14,6 +14,8 @@ class StudentOutExamine(Action):
     outiframe1 = (By.XPATH,'/html/body/div[3]/div[2]/iframe')
     accessbtn = (By.XPATH,'/html/body/article/form/div[11]/input[1]')
 
+    assert_element = (By.XPATH,'//*[@id="stdName"]')
+
     def type_student_out_examine(self):
         '''进入学员退学审核页面'''
         log=Log()
@@ -41,4 +43,6 @@ class StudentOutExamine(Action):
         sleep(3)
         log.info('退学审核结束！')
 
-
+    def type_student_out_examine_success(self):
+        '''退学审批成功断言'''
+        self.isElementExist(*self.assert_element)

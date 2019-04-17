@@ -22,7 +22,7 @@ class AddDataTest(StartEnd):
             log.info("开始录入第%s个数据。" %i)
             po2.type_cheng_register()
             log.info("断言！")
-            self.assertIsNotNone(po2.type_register_hint, msg=None)
+            self.assertTrue(po2.type_register_cj_success, msg=None)
 
 if __name__ == '__main__':
     unittest.main()

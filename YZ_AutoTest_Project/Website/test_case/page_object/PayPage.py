@@ -35,6 +35,6 @@ class Pay(Action):
         self.find_element(*self.savebtu) .send_keys(Keys.ENTER)
         sleep(10)
 
-    def type_register_hint(self):
+    def type_pay_success(self):
         '''支付成功断言'''
-        return self.find_element(*self.assert_element).text
+        return self.find_element(*self.assert_element)

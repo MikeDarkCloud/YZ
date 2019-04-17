@@ -20,7 +20,8 @@ class AdultRegisterTest(StartEnd):
         po3.type_studentmanage(1)
         po2.type_cheng_register()
         log.info("测试成教学员录入是否成功断言！")
-        self.assertIsNotNone(po2.type_register_hint, msg=None)
+        self.assertTrue(po2.type_register_cj_success, msg=None)
+        log.info('成教学员录入信息成功！')
 
 if __name__ == '__main__':
     unittest.main()
