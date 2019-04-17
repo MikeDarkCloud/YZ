@@ -11,7 +11,7 @@ from StudentOutExaminePage import *
 from myunit import *
 from Log import *
 class StudentOutExamineTest(StartEnd):
-    @unittest.skip('skip this case')
+    # @unittest.skip('skip this case')
     def test_student_out_examine_1(self):
         '''测试退学申请'''
         log=Log()

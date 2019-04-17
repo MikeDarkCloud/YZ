@@ -4,20 +4,20 @@ from AdultEntrance import *
 from myunit import *
 
 class DingDingRegisterTest(StartEnd):
-    '''¶¤¶¤ÕĞÉúÓ¦ÓÃ'''
+    '''é’‰é’‰æ‹›ç”Ÿåº”ç”¨'''
     @unittest.skip('skip this case')
     def test_dingding_register_1(self):
-        '''²âÊÔ¶¤¶¤ÕĞÉúÓ¦ÓÃ³É½ÌÑ§Ô±Â¼Èë'''
+        '''æµ‹è¯•é’‰é’‰æ‹›ç”Ÿåº”ç”¨æˆæ•™å­¦å‘˜å½•å…¥'''
         log=Log()
         log.info("test_register_normal is start test..")
-        log.info("¿ªÊ¼²âÊÔ¶¤¶¤Â¼Èë³É½ÌÑ§Ô±ĞÅÏ¢£¡")
+        log.info("å¼€å§‹æµ‹è¯•é’‰é’‰å½•å…¥æˆæ•™å­¦å‘˜ä¿¡æ¯ï¼")
         po2 = Auto_DCJ_register(self.driver)
         po2.open_new('http://test.yzwill.cn/recruit/login')
         po2.type_dd_login()
         po2.type_ddcj_register()
-        log.info("¶ÏÑÔ£¡")
+        log.info("æ–­è¨€ï¼")
         self.assertIsNotNone(po2.type_dregister_hint,msg=None)
-        log.info("¹§Ï²£¡¶¤¶¤Â¼ÈëÑ§Ô±Í¨¹ı")
+        log.info("æ­å–œï¼é’‰é’‰å½•å…¥å­¦å‘˜é€šè¿‡")
 
 if __name__ == '__main__':
     unittest.main()

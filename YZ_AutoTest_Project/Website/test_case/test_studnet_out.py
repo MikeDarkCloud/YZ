@@ -10,7 +10,7 @@ from StudentOutPage import *
 from myunit import *
 from Log import *
 class StudentOutTest(StartEnd):
-    @unittest.skip('skip this case')
+    # @unittest.skip('skip this case')
     def test_studentout_1(self):
         '''测试退学申请'''
         log=Log()

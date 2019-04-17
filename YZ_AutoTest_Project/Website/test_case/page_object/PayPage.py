@@ -32,7 +32,7 @@ class Pay(Action):
         sleep(5)
         js = "var q=document.documentElement.scrollTop=10000"
         self.get_execute_script(js)
-        self.find_element(*self.savebtu) .click()
+        self.find_element(*self.savebtu) .send_keys(Keys.ENTER)
         sleep(10)
 
     def type_register_hint(self):

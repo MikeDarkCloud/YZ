@@ -10,7 +10,7 @@ from StudentInfoExamine import *
 from myunit import *
 from Log import *
 class StudentRollTest(StartEnd):
-    @unittest.skip('skip this case')
+    # @unittest.skip('skip this case')
     def test_student_roll_1(self):
         '''测试新生信息异动申请'''
         log=Log()
@@ -38,6 +38,8 @@ class StudentRollTest(StartEnd):
         s = Search(self.driver)
         s.type_zbnew_search(iphone)
         po7.type_student_change()
+        log.info("转报断言！")
+        self.assertTrue(po7.type_assert_student_roll(), msg=None)
         log.info("转报测试完成")
 
 

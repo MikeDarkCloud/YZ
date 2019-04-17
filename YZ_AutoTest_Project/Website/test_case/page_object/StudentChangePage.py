@@ -20,7 +20,7 @@ class StudentChange(Action):
     unvsid2 = (By.XPATH,'/html/body/article/form/div[3]/div[4]/div/span[3]/span[1]/span/span[1]')
     unvsid2input = (By.XPATH,'/html/body/span/span/span[1]/input')
     submit = (By.XPATH,'/html/body/article/form/div[4]/input')
-
+    assert_element=(By.XPATH,'//*[@id="mobile"]')
 
     def type_student_change(self):
         '''开始学员转报'''
@@ -39,7 +39,7 @@ class StudentChange(Action):
         sleep(1)
         self.find_element(*self.unvsid).click()
         sleep(1)
-        self.find_element(*self.unvsidinput).send_keys("国家开放大学")
+        self.find_element(*self.unvsidinput).send_keys("51161")
         sleep(1)
         self.find_element(*self.unvsidinput).send_keys(Keys.ENTER)
         sleep(1)
@@ -54,8 +54,10 @@ class StudentChange(Action):
         sleep(1)
         self.find_element(*self.submit).click()
         sleep(4)
-        log.info("学员转报完毕！")
 
+    def type_assert_student_roll(self):
+        '''转报断言”'''
+        return self.isElementExist(*self.assert_element)
 
 
 
