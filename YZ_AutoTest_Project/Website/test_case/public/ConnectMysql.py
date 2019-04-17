@@ -11,7 +11,7 @@ class ConnectMysql():
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
-        sql = ("UPDATE bms.bd_learn_annex SET annex_url = 'std/155114117217621675/3BD56545A9924CE0BB8C7333308D1695.jpg',annex_status = 2,upload_user = '蓝明勇',upload_user_id = '153968138096924081',upload_time = '%s' WHERE learn_id = '%s' AND annex_type IN ( '1', '2', '3' )" % (nowTime,learn_id))
+        sql = ("UPDATE bms.bd_learn_annex SET annex_url = 'std/155114117217621675/3BD56545A9924CE0BB8C7333308D1695.jpg',annex_status = 2,upload_user = 'autotester1',upload_user_id = '153968138096924081',upload_time = '%s' WHERE learn_id = '%s' AND annex_type IN ( '1', '2', '3' )" % (nowTime,learn_id))
         try:
             # 执行SQL语句
             cursor.execute(sql)
@@ -32,7 +32,7 @@ class ConnectMysql():
         # 使用cursor()方法获取操作游标
         cursor = db.cursor()
         # SQL 更新语句
-        sql = ("UPDATE bms.bd_learn_annex SET annex_url = 'std/155114117217621675/3BD56545A9924CE0BB8C7333308D1695.jpg',annex_status = 2,upload_user = '蓝明勇',upload_user_id = '153968138096924081',upload_time = '%s' WHERE learn_id = '%s' AND annex_type IN ( '5' )" % (nowTime,learn_id))
+        sql = ("UPDATE bms.bd_learn_annex SET annex_url = 'std/155114117217621675/3BD56545A9924CE0BB8C7333308D1695.jpg',annex_status = 2,upload_user = 'autotester1',upload_user_id = '153968138096924081',upload_time = '%s' WHERE learn_id = '%s' AND annex_type IN ( '5' )" % (nowTime,learn_id))
         try:
             # 执行SQL语句
             cursor.execute(sql)

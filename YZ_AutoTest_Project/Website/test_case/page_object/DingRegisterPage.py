@@ -55,7 +55,7 @@ class Auto_DCJ_register(Action,rewrxl):
 
     def type_dd_login(self):
         self.find_element(*self.ddusername).click()
-        self.find_element(*self.ddusername).send_keys('蓝明勇')
+        self.find_element(*self.ddusername).send_keys('autotester1')
         self.find_element(*self.ddpwd).click()
         self.find_element(*self.ddpwd).send_keys('Yz123456')
         sleep(15)

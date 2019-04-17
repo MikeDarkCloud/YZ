@@ -14,7 +14,7 @@ class CouponTest(StartEnd):
         po1 =LoginPage(self.driver)
         log = Log()
         log.info("输入账号密码！")
-        po1.Login_action('蓝明勇', 'Yz123456')
+        po1.Login_action('autotester1', 'Yz123456')
         po2=ListPage(self.driver)
         po2.type_domain()
         po3=DomianTest(self.driver)

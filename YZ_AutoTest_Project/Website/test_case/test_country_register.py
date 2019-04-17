@@ -14,7 +14,7 @@ class CountryRegisterTest(StartEnd):
         log = Log()
         po1=LoginPage(self.driver)
         log.info("输入账号密码！")
-        po1.Login_action('蓝明勇', 'Yz123456')
+        po1.Login_action('autotester1', 'Yz123456')
         log.info("开始测试录入国开学员信息！")
         po2 = AutoGkRegister(self.driver)
         po3 = ListPage(self.driver)
