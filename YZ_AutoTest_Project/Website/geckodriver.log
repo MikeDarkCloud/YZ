@@ -6224,3 +6224,645 @@ JavaScript warning: http://bms.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachab
 [Child 277
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1555476979995	geckodriver	INFO	geckodriver 0.21.0
+1555476980010	geckodriver	INFO	Listening on 127.0.0.1:51351
+1555476983345	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.WF6Mmcpmial9"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555476988662	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 23040, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1555477004023	Marionette	INFO	Listening on port 51363
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477004613	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555477004721	Marionette	DEBUG	Register listener.js for window 4294967297
+1555477005763	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555477006087	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555477006087	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477008487	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477008721	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477036825	geckodriver	INFO	geckodriver 0.21.0
+1555477036837	geckodriver	INFO	Listening on 127.0.0.1:51502
+1555477039860	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.N9d4jEZWFO1r"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477043438	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 29464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7440, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 7440, Chrome_ChildThread] WARNING: pipe error: 109: Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477046386	Marionette	INFO	Listening on port 51514
+1555477046419	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555477046477	Marionette	DEBUG	Register listener.js for window 4294967297
+1555477046893	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555477046936	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555477046936	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477047284	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477047319	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477074658	Marionette	DEBUG	Received DOM event "beforeunload" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477074817	Marionette	DEBUG	Received DOM event "pagehide" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477074818	Marionette	DEBUG	Received DOM event "unload" for "http://bms-3.yzwill.cn/toLogin.do"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477075214	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/index.do"
+1555477075253	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/index.do"
+1555477075569	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477078859	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477085244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555477088581	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477095316	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477095706	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477098283	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477100768	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477103222	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477105661	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477108180	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477110703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477113136	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477115595	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477118050	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477119390	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477125925	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477128383	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477130217	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477131530	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477135932	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477138409	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477140791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477143244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477145661	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477148079	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 29464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 20144, Chrome_[Parent 29464, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12860, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 12860, Chr
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555477244327	geckodriver	INFO	geckodriver 0.21.0
+1555477244338	geckodriver	INFO	Listening on 127.0.0.1:51881
+1555477247358	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.2TzDnK8FTH2R"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477248196	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 23916, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29244, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29244, Chrome_ChildUnable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477250988	Marionette	INFO	Listening on port 51893
+1555477251351	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555477251456	Marionette	DEBUG	Register listener.js for window 4294967297
+1555477251719	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555477251787	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555477251787	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477252165	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477252210	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477280552	Marionette	DEBUG	Received DOM event "beforeunload" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477280735	Marionette	DEBUG	Received DOM event "pagehide" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477280737	Marionette	DEBUG	Received DOM event "unload" for "http://bms-3.yzwill.cn/toLogin.do"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477280972	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/index.do"
+1555477281015	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/index.do"
+1555477281328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477284598	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477290917	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477294179	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477300672	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477301078	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477303553	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477305987	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477308345	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477310687	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477313055	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477315400	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477317740	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477320241	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555477409995	geckodriver	INFO	geckodriver 0.21.0
+1555477410008	geckodriver	INFO	Listening on 127.0.0.1:52211
+1555477413016	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.07wjFj4PfPMB"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477413831	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 23684, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 23684, Chrome_CUnable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477417212	Marionette	INFO	Listening on port 52225
+1555477417432	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555477417486	Marionette	DEBUG	Register listener.js for window 4294967297
+1555477417720	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555477417771	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555477417771	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477418050	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477418136	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477445562	Marionette	DEBUG	Received DOM event "beforeunload" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477445723	Marionette	DEBUG	Received DOM event "pagehide" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477445723	Marionette	DEBUG	Received DOM event "unload" for "http://bms-3.yzwill.cn/toLogin.do"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477445884	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/index.do"
+1555477445886	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/index.do"
+1555477446206	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477449505	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477455818	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477459097	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477465554	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477466014	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477468568	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477470973	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477473344	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477475691	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477478055	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477480412	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477482831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477485234	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 26892, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555477535100	geckodriver	INFO	geckodriver 0.21.0
+1555477535113	geckodriver	INFO	Listening on 127.0.0.1:52484
+1555477538140	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.VYF7n4LGUJu7"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477538962	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Child 10808, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 10808, CUnable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555477541960	Marionette	INFO	Listening on port 52497
+1555477541987	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555477542045	Marionette	DEBUG	Register listener.js for window 4294967297
+1555477542357	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555477542453	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555477542453	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477542745	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477542776	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477570247	Marionette	DEBUG	Received DOM event "beforeunload" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477570413	Marionette	DEBUG	Received DOM event "pagehide" for "http://bms-3.yzwill.cn/toLogin.do"
+1555477570414	Marionette	DEBUG	Received DOM event "unload" for "http://bms-3.yzwill.cn/toLogin.do"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477570639	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/index.do"
+1555477570709	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/index.do"
+1555477571021	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477574374	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477580679	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555477584000	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477590474	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477590888	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477593399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477595907	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477598323	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477600718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477603230	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477605659	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477608061	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477610455	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477612867	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477614215	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477620694	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477623122	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477624948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477626254	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477630639	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477633108	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477635490	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477637940	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477640339	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477642752	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477662325	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555477665623	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477672071	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477672471	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477675007	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477677454	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477679894	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477682325	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477684805	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477687245	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477689643	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477692054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477694467	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477695788	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477702270	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477704670	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477706487	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477707784	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477712147	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477714585	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477716983	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477719435	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477721831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477724244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477743888	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477747272	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477753735	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477754119	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477756647	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477759100	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477761536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477763947	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477766416	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477768889	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477771303	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477773718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477776134	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477777477	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477783979	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477786399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477788216	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477789516	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477793886	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477796361	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477798753	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477801226	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477803673	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477806097	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477825702	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555477828999	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477835450	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477835835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477838367	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477840835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477843282	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477845687	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477848187	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477850644	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477853051	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477855471	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477857868	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477859187	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477865718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477868150	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477870018	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477871335	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477875737	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477878202	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477880604	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477883045	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477885459	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477887885	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477907549	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555477910987	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555477917446	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477917820	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477920150	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477922667	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477925095	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477927727	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477930209	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477932719	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477935114	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477937535	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555477939892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555477941236	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Child 29364, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 29364, Chrome_ChildThr[Child 26144, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 26144
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1555478134043	geckodriver	INFO	geckodriver 0.21.0
+1555478134055	geckodriver	INFO	Listening on 127.0.0.1:53534
+1555478137082	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\Sunsi\\AppData\\Local\\Temp\\rust_mozprofile.t6SBvTZNkxoP"
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555478138231	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 12800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28784, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 28784, Chrome_Unable to read VR Path Registry from C:\Users\Sunsi\AppData\Local\openvr\openvrpaths.vrpath
+1555478141985	Marionette	INFO	Listening on port 53547
+1555478142018	Marionette	WARN	TLS certificate errors will be ignored for this session
+1555478142082	Marionette	DEBUG	Register listener.js for window 4294967297
+1555478142633	Marionette	DEBUG	Received DOM event "beforeunload" for "about:blank"
+1555478142663	Marionette	DEBUG	Received DOM event "pagehide" for "about:blank"
+1555478142663	Marionette	DEBUG	Received DOM event "unload" for "about:blank"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478142922	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/toLogin.do"
+1555478142943	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/toLogin.do"
+1555478170869	Marionette	DEBUG	Received DOM event "beforeunload" for "http://bms-3.yzwill.cn/toLogin.do"
+1555478171029	Marionette	DEBUG	Received DOM event "pagehide" for "http://bms-3.yzwill.cn/toLogin.do"
+1555478171032	Marionette	DEBUG	Received DOM event "unload" for "http://bms-3.yzwill.cn/toLogin.do"
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478171349	Marionette	DEBUG	Received DOM event "DOMContentLoaded" for "http://bms-3.yzwill.cn/index.do"
+1555478171381	Marionette	DEBUG	Received DOM event "pageshow" for "http://bms-3.yzwill.cn/index.do"
+1555478171703	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478174989	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478181766	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478185102	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478191569	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478192002	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478194603	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478197102	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478199566	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478202010	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478204516	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478207047	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478209487	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478211959	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478214436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478215771	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478222303	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478224757	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478226587	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478227899	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478232299	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478234774	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478237159	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478239605	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478242003	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478244419	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478264044	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478267305	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478273768	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478274156	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478276717	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478279197	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478281666	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478284139	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478286634	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478289179	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478291631	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478294081	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478296536	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478297874	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478304442	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478306900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478308732	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478310041	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478314436	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478316887	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478319281	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478321735	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478324145	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478326611	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478346180	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478349484	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478355968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478356371	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478358893	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478361398	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478363878	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478366355	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478368829	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478371379	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478373795	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478376244	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478378672	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478380022	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478386543	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478388968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478390783	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478392081	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478396453	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478398900	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478401292	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478403768	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478406177	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478408589	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478428132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478431457	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478437925	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478438333	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478440908	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478443410	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478445896	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478448331	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478450831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478453385	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478455797	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478458233	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478460638	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478461986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478468495	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478470933	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478472740	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478474047	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478478424	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478480868	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478483264	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478485702	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478488132	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478490575	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478510202	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478513504	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478519968	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478520366	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478522948	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478525417	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478527892	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478530345	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478532845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478535394	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478537811	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478540266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478542708	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478544057	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478550577	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478553005	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478554831	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478556148	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478560554	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478563058	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478565474	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478567927	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478570358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478572816	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478592414	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478595712	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478602173	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478602574	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478605195	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478607657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478610116	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478612569	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478615054	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478617615	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478620049	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478622498	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478624986	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478626336	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478632869	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478635320	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478637187	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478638537	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478642949	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478645410	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478647791	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478650251	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478652658	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478655084	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478674705	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478678001	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478684469	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478684866	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478687400	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478689866	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478692363	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478694790	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478697282	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478699835	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478702269	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478704718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478707168	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478708519	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478715068	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478717525	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478719354	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478720653	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478725036	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478727486	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478729875	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478732328	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478734725	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478737145	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478756718	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+1555478760031	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478766519	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478766917	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478769458	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478771925	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478774399	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478776848	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478779362	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478781890	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478784321	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478786784	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478789225	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478790588	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478797098	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478799546	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478801366	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478802658	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478807048	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478809501	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478811894	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478814358	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478816754	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478819190	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478838845	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478842141	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478848651	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478849055	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478851609	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478854073	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478856530	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478858971	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478861448	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478863970	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478866432	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478868873	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478871423	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478872856	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478879468	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478881915	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478883766	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478885070	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478889473	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478891904	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478894258	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478896713	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478899110	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478901533	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478921194	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478924523	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript warning: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 1: Using //@ to indicate sourceMappingURL pragmas is deprecated. Use //# instead
+JavaScript warning: http://bms-3.yzwill.cn/js/h-ui/H-ui.min.js, line 11: unreachable code after return statement
+1555478931266	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478931717	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478934062	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478936940	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478939369	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478941740	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478944166	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478946657	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478949038	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478951441	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+JavaScript error: http://bms-3.yzwill.cn/js/jquery/1.9.1/jquery.min.js, line 3: TypeError: e is null
+1555478953817	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+1555478955139	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+[Parent 12800, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 25
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
