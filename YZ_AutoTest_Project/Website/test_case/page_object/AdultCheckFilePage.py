@@ -2,6 +2,7 @@ from BasePage import *
 from selenium.webdriver.common.by import By
 from Log import *
 
+
 class AdultCheck(Action):
     '''考前资料核查页面'''
     Editer = (By.CSS_SELECTOR,'#DataTables_Table_0 > tbody > tr:nth-child(1) > td:nth-child(10) > a > i')
@@ -20,7 +21,7 @@ class AdultCheck(Action):
         self.find_element(*self.Editer).click()
         sleep(2)
         self.switch_to_frame(self.find_element(*self.iframe1))
-        sleep(2)
+        self.implicity_wait(5)
         self.find_element(*self.AdoptOne).click()
         sleep(2)
         self.find_element(*self.AdoptTwo).click()

@@ -16,7 +16,7 @@ class DingDingRegisterTest(StartEnd):
         po2.type_dd_login()
         po2.type_ddcj_register()
         log.info("断言！")
-        self.assertIsNotNone(po2.type_dregister_hint,msg=None)
+        self.assertIsNotNone(po2.type_dregister_success,msg=None)
         log.info("恭喜！钉钉录入学员通过")
 
 if __name__ == '__main__':

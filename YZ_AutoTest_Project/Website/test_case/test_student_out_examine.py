@@ -19,7 +19,7 @@ class StudentOutExamineTest(StartEnd):
         po1 =LoginPage(self.driver)
         log = Log()
         log.info("输入账号密码！")
-        po1.Login_action('autotester1', 'Yz123456')
+        po1.Login_action('蓝明勇', 'Yz123456')
         log.info("开始测试退学申请！")
         po2 = Auto_CJ_Register(self.driver)
         po3 = ListPage(self.driver)

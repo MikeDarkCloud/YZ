@@ -9,7 +9,7 @@ class LoginTest(StartEnd):
         print("test_register_normal is start test..")
         po1=LoginPage(self.driver)
         po1.open()
-        po1.type_username("autotester1")
+        po1.type_username("蓝明勇")
         po1.type_password('Yz123456')
         sleep(15)
         po1.type_submit()

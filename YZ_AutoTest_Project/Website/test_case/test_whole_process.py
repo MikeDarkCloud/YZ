@@ -19,7 +19,7 @@ class WholeProcessTest(StartEnd):
         log.info("test_whole_process is start test..")
         po1=LoginPage(self.driver)
         log.info("输入账号密码！")
-        po1.Login_action('autotester1', 'Yz123456')
+        po1.Login_action('蓝明勇', 'Yz123456')
         log.info("开始测试成教全流程！")
         po2 = Auto_CJ_Register(self.driver)
         po3 = ListPage(self.driver)

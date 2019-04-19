@@ -1,8 +1,6 @@
 from BasePage import *
 from Log import *
 from selenium.webdriver.common.by import By
-
-
 class CouponTest(Action):
     '''Domain'''
     id_card = (By.XPATH,'/html/body/div/div[1]/div/div[2]/div[1]/input')
@@ -15,8 +13,8 @@ class CouponTest(Action):
     iframe2 = (By.XPATH,'/html/body/div[3]/div[2]/iframe')
     submit = (By.XPATH,'/html/body/article/form/div[6]/div/input')
 
-    def type_coupon_test(self,num):
-        '''Domian'''
+    def type_coupon_test_1(self,num):
+        '''废弃优惠券'''
         id_card = [431121200012020047,440221198903244729]
         log=Log()
         self.switch_to_content()

@@ -4,7 +4,7 @@ from myunit import *
 
 class InvitationTest(StartEnd):
     '''邀约关系'''
-    # @unittest.skip('skip this test_invition case')
+    @unittest.skip('skip this test_invition case')
     def test_invition_1(self):
         '''测试邀约'''
         # log=Log()

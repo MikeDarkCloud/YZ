@@ -14,13 +14,13 @@ class CountryRegisterTest(StartEnd):
         log = Log()
         po1=LoginPage(self.driver)
         log.info("输入账号密码！")
-        po1.Login_action('autotester1', 'Yz123456')
+        po1.Login_action('蓝明勇', 'Yz123456')
         log.info("开始测试录入国开学员信息！")
         po2 = AutoGkRegister(self.driver)
         po3 = ListPage(self.driver)
         po3.type_studentmanage(1)
         iphone = po2.type_gk_register()
-        self.assertTrue(po2.type_register_gk_success, msg=None)
+        # self.assertTrue(po2.type_register_gk_success, msg=None)
         po3.type_paymanage(1)
         po5 = Search(self.driver)
         po5.pay_search(iphone, 1)
@@ -30,6 +30,7 @@ class CountryRegisterTest(StartEnd):
         po5.pay_check_search(iphone)
         po6 = PayCheck(self.driver)
         po6.type_pay_check()
+        log.info('开始国开录入缴费判断！')
         self.assertTrue(po2.type_register_gk_success, msg=None)
         #循环时使用
         # for i in range(0, 10):
