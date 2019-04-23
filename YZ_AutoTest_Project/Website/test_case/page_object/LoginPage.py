@@ -17,6 +17,10 @@ class LoginPage(Action):
         self.find_element(*self.password_loc).clear()
         self.find_element(*self.password_loc).send_keys(password)
 
+    def type_vcode(self):
+        self.find_element(*self.vcode).clear()
+        self.find_element(*self.vcode).send_keys('ssss')
+        sleep(5)
 
     # def type_vcode(self):
     #     sleep(2)
@@ -35,17 +39,6 @@ class LoginPage(Action):
 
     def type_submit(self):
         self.find_element(*self.submit).click()
-        # l = self.isElementExist(*self.Recruit_students_loc)
-        # if l:
-        #     pass
-        # else:
-        #     self.type_vcode()
-        #     self.find_element(*self.submit_loc).click()
-        #     if l:
-        #         pass
-        #     else:
-        #         self.type_vcode()
-        #         self.find_element(*self.submit_loc).click()
 
     def Login_action(self,username,password):
         self.open()
@@ -53,8 +46,8 @@ class LoginPage(Action):
         self.type_username(username)
         self.type_password(password)
         sleep(2)
-        # self.type_vcode()
-        sleep(15)
+        self.type_vcode()
+        sleep(2)
         self.type_submit()
 
 
@@ -62,9 +55,9 @@ class LoginPage(Action):
     loginFail_loc=(By.CSS_SELECTOR,'.btn')
 
     def type_loginPass_hint(self):
-        return self.find_element(*self.loginPass_loc)
+        return self.isElementExist(*self.loginPass_loc)
 
     def type_loginFail_hint(self):
-        return self.find_element(*self.loginFail_loc)
+        return self.isElementExist(*self.loginFail_loc)
 
 

@@ -17,11 +17,13 @@ class AdultCheck(Action):
 
     def type_audit_data(self):
         '''考前资料核查通过'''
-        sleep(3)
+        Log().info("======开始考前资料核查======")
+        sleep(2)
         self.find_element(*self.Editer).click()
         sleep(2)
         self.switch_to_frame(self.find_element(*self.iframe1))
         self.implicity_wait(5)
+        Log().info("======审核附件======")
         self.find_element(*self.AdoptOne).click()
         sleep(2)
         self.find_element(*self.AdoptTwo).click()
@@ -31,16 +33,15 @@ class AdultCheck(Action):
         self.find_element(*self.ToExamine).click()
         sleep(2)
         self.find_element(*self.AdoptFour).click()
-
+        Log().info("======审核完毕======")
     def type_audit_pass(self):
         '''审核通过断言'''
-        log=Log()
         passText = self.find_element(*self.Text).text()
         try:
             assert passText == u'审核通过'
-            log.info('audit_data_Testcase pass')
+            Log().info('audit_data_Testcase pass')
         except Exception as e:
-            log.info('audit_data_Testcase Fail')
+            Log().info('audit_data_Testcase Fail')
 
 
 

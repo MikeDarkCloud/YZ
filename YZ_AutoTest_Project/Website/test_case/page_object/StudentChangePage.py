@@ -3,6 +3,7 @@ from selenium.webdriver.common.by import By
 from Log import *
 from selenium.webdriver.common.keys import Keys
 from Website.test_case.page_object.SearchPage import *
+from Log import *
 
 class StudentChange(Action):
     '''学员转报页面'''
@@ -24,8 +25,7 @@ class StudentChange(Action):
 
     def type_student_change(self):
         '''开始学员转报'''
-        log=Log()
-        log.info('开始学员转报！')
+        Log.info('开始学员转报！')
         self.find_element(*self.stdadd).click()
         sleep(4)
         self.switch_to_frame(self.find_element(*self.chifream))
@@ -39,7 +39,7 @@ class StudentChange(Action):
         sleep(1)
         self.find_element(*self.unvsid).click()
         sleep(1)
-        self.find_element(*self.unvsidinput).send_keys("51161")
+        self.find_element(*self.unvsidinput).send_keys("Test")
         sleep(1)
         self.find_element(*self.unvsidinput).send_keys(Keys.ENTER)
         sleep(1)

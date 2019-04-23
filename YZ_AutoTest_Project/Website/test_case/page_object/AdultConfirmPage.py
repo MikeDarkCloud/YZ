@@ -9,12 +9,12 @@ class AduitConfirm(Action):
 
     def type_aduilt_confirm(self):
         '''进入确认'''
-        log=Log()
-        log.info('成考确认！')
+        Log().info('===========开始成考确认！==========')
         sleep(2)
         self.find_element(*self.into).click()
         sleep(1)
         self.find_element(*self.Confirm).click()
+        Log().info('===========成考确认完毕==========')
 
 
 

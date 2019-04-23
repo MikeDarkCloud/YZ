@@ -6,8 +6,8 @@ from selenium.webdriver.common.action_chains import ActionChains
 class Action(object):
     def __init__(self,driver):
         self.driver = driver
-        self.base_url='http://bms.yzwill.cn/toLogin.do'
-        # self.base_url='http://bms-3.yzwill.cn/toLogin.do'
+        # self.base_url='http://bms.yzwill.cn/toLogin.do'
+        self.base_url='http://bms-3.yzwill.cn/toLogin.do'
         #线上
         # self.base_url='https://new.yzou.cn/'
 

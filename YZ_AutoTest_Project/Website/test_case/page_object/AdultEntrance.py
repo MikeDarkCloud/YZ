@@ -20,7 +20,7 @@ class AdultEntrance(Action):
 
     def type_entrance_score(self):
         '''入学成绩'''
-        log=Log()
+        Log().info("=============开始学员成考成绩录入===================")
         self.switch_to_content()
         self.switch_to_frame(self.find_element(*self.Student_iframe))
         sleep(3)
@@ -35,17 +35,16 @@ class AdultEntrance(Action):
         self.find_element(*self.English).send_keys('80')
         sleep(1)
         self.find_element(*self.putin).click()
-        log.info('学员入学成绩输入完毕！')
+        Log().info('学员入学成绩输入完毕！')
 
     def type_score_hint(self):
-        log = Log()
-        log.info('断言！')
+        Log().info("=============断言===================")
         self.find_element(*self.search)
 
 
     def type_student_recruit(self):
         '''学员录取'''
-        log=Log()
+        Log().info("=============开始学员录取===================")
         self.switch_to_content()
         self.switch_to_frame(self.find_element(*self.Student_iframe))
         sleep(3)
@@ -53,10 +52,9 @@ class AdultEntrance(Action):
         sleep(2)
         self.switch_to_frame(self.find_element(*self.sEntrance))
         self.find_element(*self.recruit).click()
-        log.info('学员录取完毕！')
+        Log().info("=============学员录取完毕===================")
 
     def type_recruit_hint(self):
-        log = Log()
-        log.info('断言！')
+        Log().info("=============学员录取完毕===================")
         self.find_element(*self.ssearch)
 

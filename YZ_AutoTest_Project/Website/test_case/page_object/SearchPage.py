@@ -82,7 +82,7 @@ class Search(Action):
         self.find_element(*self.mobile).send_keys(iphone)
         self.find_element(*self.search).click()
 
-    def pay_search(self,iphone,num):
+    def pay_search(self,mobile,num):
         '''学员缴费管理页面搜索'''
         log=Log()
         self.switch_to_content()
@@ -98,7 +98,7 @@ class Search(Action):
         sleep(2)
         self.find_element(*self.pmobile).click()
         sleep(2)
-        self.find_element(*self.pmobile).send_keys(iphone)
+        self.find_element(*self.pmobile).send_keys(mobile)
         sleep(2)
         self.find_element(*self.psearch).click()
         sleep(2)
